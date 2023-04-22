@@ -137,10 +137,12 @@ padding-bottom: 24px;}
 /* ==========HERO================= */
 .hero{text-align: center;
     margin-bottom: 0px;
-    background-color:#2E2F42;
+    padding-bottom: 188px;
+    background-color:#2E2F42;;
     color: #FFFFFF;}
 .hero-title{margin-top: 0;
-    margin-bottom: 40px;
+    margin-bottom: 48px;
+    padding-top: 188px;
     font-family: var(--primery-text);
     font-style: normal;
     font-weight: 700;
@@ -149,7 +151,12 @@ padding-bottom: 24px;}
     text-align: center;
     letter-spacing:0.02em;
     }
-.btn{
+.btn{border-radius: 4px;
+    min-width: 169px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
     background: #4D5AE5;
     font-family: inherit;
     font-style: normal;
@@ -183,6 +190,7 @@ padding-bottom: 24px;}
 .section-team{background: #F4F4FD;}
 .card{background-color:var(--color-white) ;}
 
+.employees{display: flex;}
 
 
 /* ========PORTFOLIO======= */
