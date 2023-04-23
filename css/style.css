@@ -13,6 +13,7 @@
 	--color-white:#FFFFFF;
 	--color-dairy: #fcfcfc;}
 
+
 h1,h2,h3,h4,h5,p{margin: 0;}
 ul{margin: 0;
    }
@@ -33,9 +34,7 @@ body{color:#434455;
 .container{
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
-    outline: 2px solid red;
-}
+    padding: 0 15px;}
 /* ============ FONTS FOR SECTIONS */
 .section-name{font-family:var(--primery-text);
     font-style: normal;
@@ -81,7 +80,6 @@ body{color:#434455;
 
 .nav-page{display: flex;}
 .logo{margin-right: 76px;
-   
     font-family:'Raleway',sans-serif;
     font-style:normal;
     font-weight: 800;
@@ -261,18 +259,11 @@ text-align: center;}
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px;
-
-   
-   
-}
+    row-gap: 48px;}
 .card-portfolio{
-    width: calc((100% - 48px)/3);
-   
-}
+    width: calc((100% - 48px)/3);}
 .card-description
 {padding: 32px 0;
-
     border-left:1px solid #E7E9FC ;
     border-right:1px solid #E7E9FC ;
     border-bottom:1px solid #E7E9FC ;
@@ -302,7 +293,4 @@ text-align: center;}
 .foter-container{width: 256px;
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 156px;
-
-
-}
+    padding-left: 156px;}
