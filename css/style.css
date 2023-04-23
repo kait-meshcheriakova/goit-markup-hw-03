@@ -207,7 +207,7 @@ body{color:#434455;
     display: flex;
     gap: 24px;
 }
-.pictures{calc((100% - 48px) / 3); }
+.pictures{width:calc((100% - 48px) / 3); }
 
 
 
@@ -294,3 +294,5 @@ text-align: center;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-studio-footer);}
+.logo-footer{ display: inline-block;
+    margin-bottom: 16px;}
